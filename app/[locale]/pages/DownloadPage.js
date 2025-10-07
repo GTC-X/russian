@@ -16,9 +16,9 @@ import { CgWebsite } from "react-icons/cg";
 const DownloadPage = () => {
   const t = useTranslations("platform");
   const downloadMacOptions = [
-    { link: 'https://download.mql5.com/cdn/web/gtc.global.trade/mt4/gtcglobaltrade4setup.exe', icon: AiFillWindows, textKey: 'downloadApp.mac.mt4pc' },
+    { link: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/app-files/gtcglobalsa4setup.exe', icon: AiFillWindows, textKey: 'downloadApp.mac.mt4pc' },
     { link: 'https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe', icon: AiFillWindows, textKey: 'downloadApp.mac.mt4mac', },
-    { link: 'https://webtrade.gtcup.com/terminal', icon: CgWebsite, textKey: 'downloadApp.mac.live1', },
+ 
     { link: 'https://webtrade.gtcup.com/terminal', icon: CgWebsite, textKey: 'downloadApp.mac.live2', },
   ];
 
@@ -34,6 +34,7 @@ const DownloadPage = () => {
     { link: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/app-files/metatrader5.apk', icon: FaApple, text: t('downloadApp.tablets.mt4ipad') },
   
   ];
+
 
   return (
     <>

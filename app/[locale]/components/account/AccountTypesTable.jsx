@@ -32,32 +32,7 @@ const AccountTypesTable = () => {
       ],
       color: "#272727",
     },
-    {
-      name: t("pro_account.title"),
-      details: [
-        t("pro_account.point1"),
-        t("pro_account.point2"),
-        t("pro_account.point3"),
-        t("pro_account.point4"),
-        t("pro_account.point5"),
-        t("pro_account.point6"),
-        t("pro_account.point7"),
-        t("pro_account.point8"),
-        t("pro_account.point9"),
-        t("pro_account.point10"),
-        t("pro_account.point11"),
-        t("pro_account.point12"),
-        t("pro_account.point16"),
-        t("pro_account.point17"),
-        t("pro_account.point14"),
-        t("pro_account.point15"),
-        t("pro_account.point13"),
-        ,
-        ,
-      
-      ],
-      color: "silver",
-    },
+   
     {
       name: t("ecn_account.title"),
       details: [

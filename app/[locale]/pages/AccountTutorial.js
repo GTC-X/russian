@@ -25,21 +25,45 @@ const AccountTutorialPage = () => {
   const t = useTranslations("tutorialVideo.bannerSection");
    const t2 = useTranslations("metaData.tutorialVideo");
 
-  const videos = [
+   const videos = [
     {
       id: 1,
       title: "How to Open Account in GTCFX Portal",
-      thumbnail: "/videos/video1.jpg",
+      thumbnail: "/videos/account0.webp",
       url: "https://www.youtube.com/watch?v=UE7r7u8Iqsc",
     },
     {
       id: 2,
       title: "How to Verify Your GTCFX Account",
-      thumbnail: "videos/video2.jpg",
+      thumbnail: "videos/account1.webp",
       url: "https://www.youtube.com/watch?v=p4t7UKNjGm8",
     },
+     {
+      id: 3,
+      title: "How to Deposit Funds into Your Account",
+      thumbnail: "videos/account2.webp",
+      url: "https://www.youtube.com/watch?v=p4t7UKNjGm8",
+    },
+    
+     {
+      id: 6,
+      title: "How to Use the GTC Help Desk",
+      thumbnail: "videos/account5.webp",
+      url: "https://www.youtube.com/watch?v=yAAgi_Dibck",
+    },
+     {
+      id: 7,
+      title: "How to Become an IB with GTCFX",
+      thumbnail: "videos/account6.webp",
+      url: "https://www.youtube.com/watch?v=9fxvZqwxhdA",
+    },
+     {
+      id: 8,
+      title: "How to Apply for a MAM Account",
+      thumbnail: "videos/account7.webp",
+      url: "https://www.youtube.com/watch?v=EguGmw_Vamk",
+    },
   ];
-
   const embedUrl = useMemo(
     () => (selectedVideo ? toEmbedUrl(selectedVideo.url) : ""),
     [selectedVideo]
