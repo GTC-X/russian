@@ -59,7 +59,7 @@ const Language = (props) => {
       {dropdownOpen && (
         <ul
           tabIndex={0}
-          className={`dropdown-content z-[99] pt-1 mt-1 language-setting menu shadow bg-white border border-gray-300 absolute rounded-none md:w-[310px] flex flex-row gap-1 text-sm ltr:right-0 rtl:left-0 ${currentLanguage?.direction == "rtl" ? "arabic" : ""}`}
+          className={`dropdown-content z-[99] pt-1 mt-1 language-setting menu shadow bg-white border border-gray-300 absolute rounded-none md:w-[110px] flex flex-row gap-1 text-sm ltr:right-0 rtl:left-0 ${currentLanguage?.direction == "rtl" ? "arabic" : ""}`}
         >
           {languages.map((language) => (
             <li key={language.code}>
