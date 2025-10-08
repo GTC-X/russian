@@ -35,7 +35,7 @@ const LpHeader = () => {
                 </Link>
               </div>
               <div className="flex flex-col lg:flex-row">
-                <Link href='https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww' target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
+                <Link href='https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww' target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
                   Open An Account
                 </Link>
               </div>

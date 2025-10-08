@@ -26,7 +26,7 @@ export default function Markets() {
         dateRange: "12M",
         showChart: true,
         locale: "en",
-        largeChartUrl: "https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww&_gl=1*19bpo5s*_gcl_au*MzQyNTMwNDY3LjE3MjMyMjM2MTE.",
+        largeChartUrl: "https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww&_gl=1*19bpo5s*_gcl_au*MzQyNTMwNDY3LjE3MjMyMjM2MTE.",
         isTransparent: false, // Ensures the background color is applied
         backgroundColor: "black", // ✅ Add this line
         showSymbolLogo: true,

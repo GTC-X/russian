@@ -61,7 +61,7 @@ export default function MobileMenu(props) {
           <div className="flex flex-wrap flex-row justify-center gap-4 items-center  p-3 border-b border-gray-300">
             <div className="">
               <Link
-                href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww"
+                href="https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww"
                 target="_blank"
                 className="uppercase border border-[#29a643] hover:bg-primary hover:text-white  text-[11px] px-3 py-[6px] md:flex gap-2 items-center"
               >

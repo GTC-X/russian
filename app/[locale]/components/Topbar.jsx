@@ -19,7 +19,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
   const baseLink =
     countryCode === 'UZ'
       ? 'https://mygtcportal.com/getview?view=register&token=298uowwweowwwwww'
-      : 'https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww';
+      : 'https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww';
 
   const baseLink2 =
     countryCode === 'JP'
@@ -62,7 +62,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
             {t("new_client_portal")}
           </Link>
     
-          <Link href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww" target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
+          <Link href="https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww" target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
             {t("tobbar.account")}
           </Link>
           <Link href='/introductory-broker' className="hidden text-white uppercase bg-secondary hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">

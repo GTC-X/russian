@@ -22,13 +22,13 @@ const LiveAccountButton = ({ hoverStyle, link }) => {
   const baseLink =
     countryCode === 'UZ'
       ? 'https://mygtcportal.com/getview?view=register&token=298uowwweowwwwww'
-      : 'https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww';
+      : 'https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww';
 
   const finalLink = link || baseLink;
 
   return (
     <Link
-  href='https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww'
+  href='https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww'
   target="_blank"
   className={`text-sm 3xl:text-xl px-8 py-3 text-center rounded-md md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-500 ${hoverStyle || 'text-primary bg-gradient-to-b from-primary via-primary to-primary hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756]'}`}
 >

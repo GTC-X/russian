@@ -261,7 +261,7 @@ const Header = ({ currentLanguage }) => {
           title: t("account.firstcolumn.heading"),
           items: [
             {
-              href: "https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww",
+              href: "https://mygtcportal.com/agent_register?token=2jeuowwwe2owwwww",
               label: t("account.firstcolumn.option1"),
               locale: "en,ru_RU",
             },
