@@ -124,13 +124,7 @@ export default function TimeLine() {
           btnText={t("technicalTool.timeline.buttonText")} 
           btnLink="/autochartist"
         />
-        <TimeLineRightImage
-             icon="/trading-tools/toolstep3.png"
-             para={t("technicalTool.timeline.para3")}
-             image="/trading-tools/tool3.png"
-             btnText={t("technicalTool.timeline.buttonText")}
-             btnLink="/signal-centre-tool"
-        />
+      
 
       </div>
     

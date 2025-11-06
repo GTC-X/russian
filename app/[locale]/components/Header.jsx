@@ -288,22 +288,7 @@ const Header = ({ currentLanguage }) => {
             },
           ],
         },
-        {
-          icon: <TbSpeakerphone />,
-          title: t("account.thirdcolumn.heading"),
-          items: [
-            {
-              href: "/cashback-bonus-promotion",
-              label: t("account.thirdcolumn.option1"),
-              locale: "en,ru_RU",
-            },
-            {
-              href: "https://contest.gtcvip.com/5k-demo-trading-competition",
-              label: t("account.thirdcolumn.option2"),
-              locale: "en,ru_RU",
-            },
-          ],
-        },
+
       ],
     },
     {
@@ -424,7 +409,7 @@ const Header = ({ currentLanguage }) => {
         {
           items: [
             {
-              href: "/affiliate-program",
+              href: "https://www.gtcaffiliates.com/",
               label: t("partner.thirdcolumn.option1"),
               locale: "en,ru_RU",
             },
@@ -467,11 +452,6 @@ const Header = ({ currentLanguage }) => {
             {
               href: "/mam-account",
               label: t("technology.secondcolumn.option2"),
-              locale: "en,ru_RU",
-            },
-            {
-              href: "/signal-centre-tool",
-              label: t("technology.secondcolumn.option3"),
               locale: "en,ru_RU",
             },
             {
