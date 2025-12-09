@@ -22,7 +22,7 @@ export default function HomePage() {
   const { locale } = router;
 
   // Dynamically handle value based on locale
-  const dynamicValue = locale === "zh-hans" || locale === "zh-TW" ? 1350 : 135;
+  const dynamicValue = locale === "zh-hans" || locale === "zh-TW" ? 1350 : 450;
   
 
   const statsOne = [
