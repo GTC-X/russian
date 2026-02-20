@@ -14,6 +14,7 @@ import ClientsNetwork from "./components/home/ClientsNetwork";
 import ClientPayments from "./components/home/ClientPayments";
 import LiquiditySolutions from "./components/home/LiquiditySolutions";
 import TradingPlatform from "./components/home/TradingPlatform";
+import TradingOptionsSection from "./components/home/TradingOptionsSection";
  
 export default function HomePage() {
   const t = useTranslations("home"); 
@@ -48,8 +49,10 @@ export default function HomePage() {
         <StatCounter stats={statsOne} />
         <WhyGTC />
         <LiquiditySolutions />
+        <TradingOptionsSection />
+             <SecurityFund />
         <TradingPlatform />
-        <SecurityFund />
+   
         <Markets /> 
         <ClientsNetwork />
         <ClientPayments />
